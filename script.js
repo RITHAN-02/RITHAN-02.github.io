@@ -4,11 +4,11 @@
   clear placeholders rather than made-up details.
 */
 const business = {
-  name: "[BUSINESS NAME]",
-  phone: "[YOUR PHONE NUMBER]",       // Example: +919876543210 (no spaces for WhatsApp)
-  email: "[YOUR EMAIL ADDRESS]",
-  location: "[YOUR AREA / CITY]",
-  directionsUrl: "#"                  // Paste a Google Maps share link here
+  name: "Vaanam Threads",
+  phone: "9486478027",       // Example: +919876543210 (no spaces for WhatsApp)
+  email: "chithrarajen84@gmail.com",
+  location: "Plot C, no 36 thenamal illam,subasree nagar extn ,3rd cross street ,mmugalivakkam ,chennai - 600116",
+  directionsUrl: "https://maps.app.goo.gl/uYCrytFmeVKU6CdD6"                  // Paste a Google Maps share link here
 };
 
 document.querySelectorAll("[data-business-name]").forEach(el => el.textContent = business.name);
